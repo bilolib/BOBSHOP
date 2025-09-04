@@ -25,7 +25,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://cdn.modrinth.com/data/cached_images/feb52c856eff98f691708046c1c4528041421ddc.gif" width="700px" alt="BOBShop Settings Menu GIF">
+      <img src="https://cdn.modrinth.com/data/cached_images/feb52c856eff98f691708046c1c4528041421ddc.gif" width="500px" alt="BOBShop Settings Menu GIF">
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
       <h3>BOBShop Settings Menu</h3>
@@ -44,7 +44,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://cdn.modrinth.com/data/cached_images/0ac75916a521c799fee5077c2d8405cc555d3dcc.gif" width="900px" alt="Market Menu GIF">
+      <img src="https://cdn.modrinth.com/data/cached_images/0ac75916a521c799fee5077c2d8405cc555d3dcc.gif" width="500px" alt="Market Menu GIF">
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
       <h3>Market Menu</h3>
@@ -63,7 +63,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://cdn.modrinth.com/data/cached_images/c5ff18b7fb4e5e04ab91ec1a75302e16c8838901.gif" width="900px" alt="Admin Menu GIF">
+      <img src="https://cdn.modrinth.com/data/cached_images/c5ff18b7fb4e5e04ab91ec1a75302e16c8838901.gif" width="500px" alt="Admin Menu GIF">
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
       <h3>Admin Menu</h3>
