@@ -1,0 +1,37 @@
+# -------------------------------
+# BobShop Plugin Configuration
+# -------------------------------
+
+# Language settings (must match a file in the /lang/ folder, e.g., en.yml, tr.yml)
+lang: en
+
+# Default sign type for shop creation
+sign: OAK_WALL_SIGN
+
+# Default price for creating a shop
+shop-price: 10
+shop-limit: 5
+# -------------------------------
+# Hologram Settings
+# -------------------------------
+holo-description:
+  # Maximum characters allowed per line in the hologram
+  maxlinechars: 12
+  # Maximum number of lines allowed
+  maxlines: 3
+  # Maximum characters allowed in total description
+  maxchars: 30
+
+  enabled: true
+# Enable or disable holograms above shops
+hologram: true
+
+# -------------------------------
+# Backup Settings
+# -------------------------------
+
+# Enable automatic database backups? (true = enabled, false = disabled)
+backups: true
+
+# How often backups should be created (in minutes)
+backup-interval: 30
