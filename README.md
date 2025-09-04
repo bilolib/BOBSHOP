@@ -2,7 +2,6 @@
 
 # BOBSHOP
 
-[![GitHub](https://img.shields.io/badge/GitHub-Source-black?logo=github)](https://github.com/bilolib/BOBSHOP)
 [![License](https://img.shields.io/badge/License-MIT-blue?logo=opensourceinitiative)](https://github.com/bilolib/BOBSHOP/blob/main/LICENSE)
 
 </div>
