@@ -1,0 +1,11 @@
+name: bobshop
+version: '1'
+main: com.bilolib.bobshop.BOBShop
+api-version: '1.21'
+softdepend: [DecentHolograms]
+commands:
+  bobshop:
+    description: BOBShop menüsü veya reload
+    usage: /bobshop [reload]
+    permission: bobshop.admin
+    permission-message: "&cYou do not have permission to use this command!"

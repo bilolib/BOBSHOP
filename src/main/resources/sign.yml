@@ -1,0 +1,5 @@
+sign:
+  1: "&a{owner}"
+  2: "&b{item}"
+  3: "&6Price: &f{price}"
+  4: "&eAmt:&f{amount} &7- {mode}"

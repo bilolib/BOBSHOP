@@ -1,0 +1,163 @@
+# ------------------------------
+# General Messages
+# ------------------------------
+no-permission: "&cYou don't have permission!"
+reload-success: "§aBobShop: Files reloaded successfully."
+invalid-number: "&cYou must enter a valid number!"
+invalid-chest: "&cInvalid chest!"
+not-enough-stock: "&cNot enough stock! Available: {stock}"
+not-enough-money: "&cNot enough money! Needed: {price}"
+purchase-success: "&aYou successfully bought {amount}x {item} for ${price}."
+sold-success: "&aYou successfully sold {amount}x {item} for ${price}."
+cannot-break-chest: "&cYou cannot break this chest! It's part of a market."
+invalid-item: "&cYou must hold a valid item to sell!"
+select-item-in-inventory: "&ePlease select an item from your inventory!"
+market-item-updated: "&aThe market item has been successfully updated!"
+market-limit-reached: "&cYou have reached the maximum number of shops &e{limit}"
+enter-shop-limit: "&7Enter new shop limit. &8(Type 'cancel' to cancel.)"
+updated-shop-limit: "&aShop limit updated to &e{limit}"
+description-disabled-msg: "&cYou cannot add a description right now, the description feature is disabled."
+cancelled: "&eAction cancelled."
+invalid-sign: "&cInvalid sign!"
+empty: "&fempty"
+# ------------------------------
+# Market Creation
+# ------------------------------
+market-created: "&aMarket successfully created!"
+enter-price: "&eEnter the price you want to sell (numbers only). &8(Type 'cancel' to cancel.)"
+enter-description: "&7Enter a new description for your market: &8(Type 'cancel' to cancel.)"
+market-description-updated: "&aDescription updated to: &f{desc}"
+description-too-long: "&cYou have entered too many characters! You can enter up to {max} characters."
+market-description-removed: "&eDescription removed."
+
+# ------------------------------
+# Shop Price
+# ------------------------------
+shop-price-enter: "&aPlease enter the new shop price. &8(Type 'cancel' to cancel.)"
+shop-price-invalid-number: "&cInvalid price! Please enter a positive number."
+shop-price-updated: "&aShop price successfully updated: &e{price}"
+shop-price-change-cancelled: "&cShop price change cancelled."
+shop-price-timeout: "&cYou did not enter a price in time. The shop price change has been cancelled."
+price-prompt: "&aPlease enter the new price. Type 'cancel' to cancel."
+price-cancelled: "&cPrice change cancelled."
+price-invalid: "&cPlease enter a valid number!"
+price-updated: "&aPrice successfully updated: &e{price}"
+
+# ------------------------------
+# Admin Shop
+# ------------------------------
+adminshop-toggle-message: "&aAdmin Shop status changed: {Status}"
+server-name: "BOBSHOP"
+# ------------------------------
+# Market Modes
+# ------------------------------
+market-mode-changed: "&eMarket mode changed to {mode}"
+market-modes:
+  buy: "&aBuy"
+  sell: "&cSell"
+
+# ------------------------------
+# Shop Menu - Shop Sign Right Click
+# ------------------------------
+market-menu-title: "&eMarket Menu &7- &a{owner}"
+remove-market-button: "&cRemove Market"
+change-price-button: "&eChange Price"
+market-removed: "&aMarket has been removed!"
+market-price-updated: "&aMarket price updated to {price}!"
+change-item-button: "&aChange Item"
+select-item-inventory-title: "Select Item to Sell"
+change-mode-button: "&aChange Mode"
+change-mode-lore:
+  - "&7Click to toggle Buy/Sell mode"
+  - "&eCurrent mode: {mode}"
+change-description-button: "&eChange Description"
+change-description-button-lore:
+  - "&7Click to add a description"
+  - "&7Click again to remove it"
+
+# ------------------------------
+# Settings Menu - /bobshop
+# ------------------------------
+settings-menu-title: "&0BOBShop Settings Menu"
+hologram-status:
+  enabled: "&aHologram On"
+  disabled: "&cHologram Off"
+shop-price:
+  name: "&bShop creation price"
+  lore:
+    - "&eCurrent price: &f{price}"
+hologram-style:
+  name: "&bHologram Style"
+  lore:
+    - "&7Current: &e{style}"
+    - "&7Click to change!"
+shop-limit:
+  name: "&bShop Limit"
+  lore:
+    - "&7Maximum number of shops: &e{limit}"
+    - "&7Click to change!"
+description:
+  enabled: "&aDescription On"
+  disabled: "&cDescription Off"
+
+# ------------------------------
+# Admin Menu - Shop Sign Shift+Right Click
+# ------------------------------
+admin-menu-title: "&cAdmin Menu &7- &a{owner}"
+admin-shop:
+  name: "&bSet as Admin Shop"
+  lore:
+    - "&7Sells unlimited items"
+    - "&7Money goes to the server"
+    - "&7Admin Shop: {Status}"
+  enabled: "&aEnabled"
+  disabled: "&cDisabled"
+Unlimited: "&f∞"
+AdminShop: "&aAdminShop"
+
+# ------------------------------
+# Selling/Buying
+# ------------------------------
+not-enough-items: "&cYou don't have enough items to sell!"
+sell-success: "&aYou successfully sold {amount}x {item} for ${price}."
+sold-item: "&a{player} sold {amount}x {item} for ${price}."
+owner-not-enough-money: "&cThe shop owner doesn't have enough money to buy your items!"
+enter-amount:
+  buy: "&7Please enter the amount you want to buy. &8(Type 'cancel' to cancel.)"
+  sell: "&7Please enter the amount you want to sell. &8(Type 'cancel' to cancel.)"
+purchase-timeout: "§cTime's up! The transaction has been cancelled."
+
+# ------------------------------
+# Control / Cancel & Timeouts
+# ------------------------------
+cancel: "cancel"
+purchase-cancelled: "&cPurchase cancelled."
+sell-cancelled: "&cSell cancelled."
+shop-limit-change-cancelled: "&cShop limit change cancelled."
+shop-description-change-cancelled: "&cDescription change cancelled."
+
+# ------------------------------
+# Economy / Errors
+# ------------------------------
+economy-withdraw-failed: "&cPayment could not be processed. Try again."
+economy-deposit-failed-refunded: "&cPayout failed. Your payment was refunded."
+
+# ------------------------------
+# Chest Capacity / Races
+# ------------------------------
+chest-not-enough-space: "&cThe chest doesn't have enough space. Free space: {space}"
+chest-space-race-condition: "&cChest filled during the operation. Transaction rolled back."
+
+# ------------------------------
+# Notifications
+# ------------------------------
+bought-item: "&a{player} bought {amount}x {item} for ${price}."
+
+# ------------------------------
+# Sign Display
+# ------------------------------
+sign:
+  1: "&a{owner}"
+  2: "&b{item}"
+  3: "&6Price: &f{price}"
+  4: "&eAmt:&f{amount} &7- {mode}"
